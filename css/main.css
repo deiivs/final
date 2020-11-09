@@ -1,0 +1,246 @@
+html, body {
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+    background: #FFFFFF;
+    width: 1440px;
+  }
+  html, body{
+    box-sizing: border-box;
+  }
+  
+  .title {
+    font-weight: 600;
+    font-size: 34px;
+    line-height: 43px;
+    letter-spacing: 0.396px;
+  }
+  .suptitle{
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 24px;
+    letter-spacing: 0.396px;
+    color: rgba(0, 0, 0, 0.7);
+}
+  
+  .conteiner {
+    margin-left: 188px;
+    margin-right: 80px;
+  }
+  
+  .header{
+    margin: 10px 80px 4px;
+    width: 1280px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .header.header_logo {
+    width: 94px;
+    height: 66px;
+  }
+  
+  .navi ul li {
+    display: inline-block;
+    margin-left: 40px;
+  }
+  
+  .navi ul li a {
+    text-decoration: none;
+  }
+  
+  .navi ul li a:hover {
+    background: #FFA94D;
+  }
+  .section{
+    
+    width: 1440px;
+  }
+  .intro{
+    position: relative;
+    z-index: 2;
+    margin: 0 80px;  
+    width: 1280px;
+    background: linear-gradient(259.08deg, #D5ECFF 0.69%, #E6F2FC 100%);
+    box-shadow: 0px 4px 5px rgba(0, 0, 0, 0.02);
+    border-radius: 8px;  
+  }
+  .intro__content{
+    width: 1139px;
+    margin-left: 54px;
+    margin-right: 88px;
+    padding-top: 126px;
+    padding-bottom: 34px;
+  }
+  .intro .ideas{
+    width: 529px;
+  }
+  .intro .ideas h2{
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 9px;
+    letter-spacing: 0.396px;
+    color: #FF8400;
+  }
+  .intro .ideas h1{
+    font-weight: 600;
+    font-size: 54px;
+    line-height: 65px;
+    letter-spacing: 0.396px;
+    color: #2D2D2D;
+  }
+  .intro .ideas p{
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 24px;
+    letter-spacing: 0.396px;
+    color: rgba(0, 0, 0, 0.7);
+  }
+  .ideas .list p{
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 9px;
+    letter-spacing: 0.396px;
+    color: rgba(71, 71, 71, 0.3);
+  }
+  .intro .list{
+    display: flex;
+  }
+  .intro .list p{
+    margin-right: 30px;
+  }
+  .intro_foto{
+    position: relative;
+    margin: -493px 112px 0 808px;
+    z-index: 3;
+  }
+  .intro_foto img{
+    border-radius: 0 110px;
+  } 
+  .intro_foto2{
+    position: relative;
+    z-index: 1;
+    margin: -370px 0px 0px 1010.09px ;
+  }
+  .provide{
+    margin-top: -150px;
+  }
+
+  .provide h3{
+    width: 360px;
+    height: 82px;
+    font-size: 34px;
+    letter-spacing: 0.4px;
+    line-height: 43px;
+  }
+  .provide h3:hover{
+    color: rgb(253,210,165,1)
+  }
+  .provide .provide__items{
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 146px;
+    z-index: 2;
+  }
+  .conteiner .provide_foto{
+    width: 53px;
+    height: 53px;
+    background: #E3FCE6;
+    border-radius: 5px;
+    margin-bottom: 28px;
+  }
+  .conteiner .provide_foto img{
+    padding: 15px 15px;
+  }
+  .provide .provide_h4{
+    width: 159px;
+  }
+  .provide .item .provide_p{
+    width: 256px;
+  }
+  .provide .provide__items .dop{
+    margin-bottom: -15px;
+  }
+   .provide .provide_fotovector img{
+    box-shadow: 0px 0px 70px rgba(0, 0, 0, 0.03);
+    position: relative;
+    margin-left: 455px;
+    margin-top: -350px;
+    z-index: 1;
+  }
+ 
+  .works h5,h6{
+    font-size: 34px;
+    letter-spacing: 0.4px;
+    line-height: 43px;
+    margin-top: 261px;
+  }
+  .works h6{
+    z-index: 2;
+    margin-top: -138px;
+    margin-left: 50px;
+    color: #FFFFFF;
+  }
+  .works h5:hover{
+    color: #FDD2A5;
+  }
+  .works .works__items{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 70px; 
+    margin-top: 125px;
+  }
+  .works a{
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 43px;
+    letter-spacing: 0.396px;
+    text-decoration: none;
+    color: #2D2D2D;
+  }
+  .works a:hover{
+    color: #4093DC;
+  }
+  .works .btn1{
+    margin-top: 66px;
+  }
+  .specialists{
+    margin-top: 91px;
+  }
+  .specialists__items{
+    width: 1152.16px;
+    margin: 0 auto;
+  }
+  .specialists .links{
+    display: flex;
+    justify-content: space-between;
+  }
+  .specialists__items{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 114px;
+  }
+  .specialists .name{
+    text-align: center;
+  }
+  .sponsor{
+    width: 1278px;
+    margin-left: 82px;
+    margin-bottom: 50px;
+    
+  } 
+  .sponsor__items{
+    width: 808px;
+    display: flex;
+    justify-content: space-between;
+    margin-left: 234px;
+  }
+  .professional{
+    width: 1168px;
+    display: flex;
+  }
+ 
+
+  
